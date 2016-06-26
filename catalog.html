@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Nerd's</title>
+</head>
+<body>
+	<header>
+		<div class="logo"><img src="imgs/index-logo.png" alt="Nerd's" width="139" height="56"></div>
+		<nav class="main-nav">
+			<ul>
+				<li><a href="#">Студия</a></li>
+				<li><a href="#">Клиенты</a></li>
+				<li><a href="#">Магазин</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+		</nav>
+		<div class="cart">Корзина</div>
+	</header>
+	<main>
+		<b>Добро пожаловать в магазин готовых макетов</b>
+		<section class="filter">
+			<form action="#" method="post">
+				<fieldset>
+					<legend>Стоимость:</legend>
+					<div class="range">
+						<div class="line">
+							<div class="filled"></div>
+							<div class="border"></div>
+							<div class="border"></div>
+						</div>
+					</div>
+					<lable>От<input type="number" value="0"></lable>
+					<lable>До<input type="number" value="1500"></lable>
+				</fieldset>
+				<fieldset>
+					<legend>Сетка:</legend>
+					<label><input type="radio" name="grid" value="adaptive">Адаптивная</label>
+					<label><input type="radio" name="grid" value="fixed">Фиксированная</label>
+					<label><input type="radio" name="grid" value="liquid">Резиновая</label>
+				</fieldset>
+				<fieldset>
+					<legend>Особенности:</legend>
+					<label><input type="checbox" name="slider" checked>Слайдер</label>
+					<label><input type="checbox" name="features-block">Блок преимуществ</label>
+					<label><input type="checbox" name="news" checked>Новости</label>
+					<label><input type="checbox" name="gallery">Галерея</label>
+					<label><input type="checbox" name="cart">Корзина</label>
+				</fieldset>
+				<button type="submit">Показать</button>
+			</form>
+		</section>
+		<section class="sort">
+			<h2>Сортировать:</h2>
+			<ul>
+				<li><a href="#">По цене</a></li>
+				<li><a href="#">По типу</a></li>
+				<li><a href="#">По функционалу</a></li>
+				<li><a class="down" href="#">По убыванию</a></li>
+				<li><a class="up" href="#">По возрастянию</a></li>
+			</ul>
+		</section>
+		<section class="catalog">
+			<ul>
+				<li>
+					<div class="layout"><img src="layout1.jpg" alt="Aviator" width="240" height="240"></div>
+				</li>
+				<li>
+					<div class="layout"><img src="layout2.jpg" alt="Sunset" width="240" height="240"></div>
+				</li>
+				<li>
+					<div class="layout"><img src="layout3.jpg" alt="Forte" width="240" height="240"></div>
+				</li>
+				<li>
+					<div class="layout"><img src="layout4.jpg" alt="Marquee" width="240" height="240"></div>
+				</li>
+				<li>
+					<div class="layout"><img src="layout5.jpg" alt="Avenue" width="240" height="240"></div>
+				</li>
+				<li>
+					<div class="layout"><img src="layout6.jpg" alt="Dovetail" width="240" height="240"></div>
+				</li>
+			</ul>
+		</section>
+		<section class="pagination">
+			<ul>
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">Следующая</a></li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<div class="map">
+			<div class="contacts">
+				<b>Nerds design studio</b>
+				<p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+				<p>тел. +7(812)275-75-75</p>
+				<a href="#">Напишите нам</a>
+			</div>
+			<div class="pointer"></div>
+		</div>
+		<div class="friends">
+			<b>Давайте дружить, это выгодно!</b>
+			<p>Скидка 10% для друзей из социальных сетей.</p>
+		</div>
+	</footer>
+</body>
+</html>
